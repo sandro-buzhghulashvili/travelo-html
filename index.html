@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6e6b173180.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>TRAVELO</title>
+</head>
+<body>
+    <nav>
+        <div id="menuToggler"><p>MENU</p><span class="burger-menu"><i class="fa-solid fa-bars"></i></span></div>
+        <div class="main-row">
+            <div class="logo">
+                <a href="#"><img src="./images/nav-logo.webp" alt="" class="nav-logo"></a>
+            </div>
+            <div class="main-menu" id="mainMenu">
+                <ul id="list">
+                    <li><a class="nav-link" href="#">Home</a></li>
+                    <li><a class="nav-link" href="#">About</a></li>
+                    <li><a class="nav-link" href="#">Destination</a></li>
+                    <li class="dropdown"><a class="nav-link" href="#">Pages</a><span class="arrow-down"><i class="fa-solid fa-chevron-down"></i></span>
+                    <div class="clickable-area"></div>
+                    <ul class="submenu">
+                        <li class="submenu-item"><a href="">Destinations Details</a></li>
+                        <li class="submenu-item"><a href="">Elements</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown"><a class="nav-link" href="#">Blog</a><span class="arrow-down"><i class="fa-solid fa-chevron-down"></i></span>
+                    <div class="clickable-area"></div>
+                    <ul class="submenu">
+                        <li class="submenu-item"><a href="">Blog</a></li>
+                        <li class="submenu-item"><a href="">Single-Blog</a></li>
+                    </ul>
+                    </li>
+                    <li><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="number">
+            <span class="icon red"><i class="fa fa-phone"></i></span>
+            <p>10(256)-928 256</p>
+            </div>
+            <div class="social-links">
+                <span class="icon"><i class="fa-brands fa-instagram"></i></span>
+                <span class="icon"><i class="fa-brands fa-linkedin-in"></i></span>
+                <span class="icon"><i class="fa-brands fa-facebook-f"></i></span>
+                <span class="icon"><i class="fa-brands fa-google-plus-g"></i></span>
+            </div>
+            <div class="search-bar">
+                <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="slider-section" id="sliderContainer">
+            <div class="owl prev" id="previous"><span><i class="fa-solid fa-angle-left"></i></span></div>
+            <div class="owl next" id="next"><span><i class="fa-solid fa-angle-right"></i></span></div>
+            <div class="slider-text">
+                <h3 id="countryName">Country Name</h3>
+                <p>Pixel perfect design with awesome contents</p>
+                <button>Explore Now</button>
+            </div>
+        </div>
+        
+        <div class="where-to-go">
+            <form class="row">
+                <div class="col-3"><h3>Where you want to go ?</h3></div>
+                <div class="col-9">
+                    <input type="text" class="where-to-go-input" placeholder="Where to go?">
+                    <div class="where-to-go-input div">Date <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span></div>
+                    <div class="where-to-go-input div">Travel type <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span></div>
+                    <button class="where-to-go-search">Search</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="popular-destination-area">
+            <div class="container">
+                <div class="destination-text">
+                    <div class="col-6">
+                        <h3>Popular Destination</h3>
+                        <p>
+                        Suffered alteration in some form, by injected humour or good day
+                        randomised booth anim 8-bit hella wolf moon beard words.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-row">
+                    <div class="card" id="card"></div>
+                    <div class="card" id="card"></div>
+                    <div class="card" id="card"></div>
+                    <div class="card" id="card"></div>
+                    <div class="card" id="card"></div>
+                    <div class="card" id="card"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="newsletter-area">
+            <div class="row">
+                <div class="col-10">
+                    <div class="col-5">
+                        <h4>Subscribe Our Newsletter</h4>
+                        <p>Subscribe newsletter to get offers and about new places to discover.</p>
+                    </div>
+                    <div class="col-7">
+                        <input type="text" placeholder="Your mail">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popular-destination-area popular-places">
+            <div class="container">
+                <div class="destination-text">
+                    <div class="col-6">
+                        <h3>Popular Places</h3>
+                        <p>
+                        Suffered alteration in some form, by injected humour or good day
+                        randomised booth anim 8-bit hella wolf moon beard words.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-row" id="popularPlaces">
+                </div>
+                <div class="button-row">
+                    <a href="#">More Places</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-area">
+            <h3>Enjoy Video</h3>
+            <div class="button-container"></div>
+            <button><i class="fa-solid fa-play"></i></button>
+        </div>
+
+        <div class="travel-variation-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="./images/icons/1.svg" alt="">
+                        <h3>Comfortable Journey</h3>
+                        <p>A wonderful serenity has taken to the possession of my entire soul.</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="./images/icons/2.svg" alt="">
+                        <h3>Luxuries Hotel</h3>
+                        <p>A wonderful serenity has taken to the possession of my entire soul.</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="./images/icons/3.svg" alt="">
+                        <h3>Travel Guide</h3>
+                        <p>A wonderful serenity has taken to the possession of my entire soul.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-area">
+            <div class="container">
+                <div class="card-row">
+                    <div class="image-div">
+                        <img src="./images//profile-photo.webp" alt="">
+                        <span><i class="fa-solid fa-quote-left"></i></span>
+                    </div>
+                    <p>"Working in conjunction with humanitarian aid agencies, we have
+                    <br>    
+                    supported programmes to help alleviate human suffering.</p>
+                    <h3>- Jerry Mouse</h3>
+                </div>
+                <div class="button-row">
+                    <div class="dot"></div>
+                    <div class="dot active-dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="recent-trip-area">
+            <div class="container">
+                <div class="header-row">
+                    <h3>Recent Trips</h3>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="./images/recent-trips/recent-trip-1.webp" alt="">
+                        <div class="info">
+                        <span>Oct 12, 2019</span>
+                        <a href="#"><h3>Journeys Are Best Measured In New Friends</h3></a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="./images/recent-trips/recent-trip-2.webp" alt="">
+                        <div class="info">
+                        <span>Oct 12, 2019</span>
+                        <a href="#"><h3>Journeys Are Best Measured In New Friends</h3></a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="./images/recent-trips/recent-trip-3.webp" alt="">
+                        <div class="info">
+                        <span>Oct 12, 2019</span>
+                        <a href="#"><h3>Journeys Are Best Measured In New Friends</h3></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xl-4">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="#">
+                                    <img src="./images/footer-logo.png" alt="">
+                                </a>
+                            </div>
+                            <p>
+                               5th flora, 700/D kings road, green
+                               <br>
+                               lane New York-1782
+                               <br>
+                               <a href="#">+10 367 826 2567</a>
+                               <br>
+                               <a href="#">contact@carpenter.com</a>
+                            </p>
+                            <div class="footer-social-links">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-xl-2">
+                        <div class="footer-widget">
+                            <h3> Company </h3>
+                            <ul class="links">
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-xl-3 first">
+                        <div class="footer-widget">
+                            <h3> Popular destination </h3>
+                            <ul class="double-links">
+                                <li><a href="#">Indonesia</a></li>
+                                <li><a href="#">America</a></li>
+                                <li><a href="#">India</a></li>
+                                <li><a href="#">Switzerland</a></li>
+                                <li><a href="#">Italy</a></li>
+                                <li><a href="#">Canada</a></li>
+                                <li><a href="#">Franch</a></li>
+                                <li><a href="#">England</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-xl-3 second">
+                        <div class="footer-widget">
+                            <h3>Instagram</h3>
+                            <div class="instagram-feed">
+                                <div class="single-insta"><a href="#"><img src="./images/footer-images/first.webp" alt=""></a></div>
+                                <div class="single-insta"><a href="#"><img src="./images/footer-images/second.webp" alt=""></a></div>
+                                <div class="single-insta"><a href="#"><img src="./images/footer-images/third.webp" alt=""></a></div>
+                                <div class="single-insta"><a href="#"><img src="./images/footer-images/fourth.webp" alt=""></a></div>
+                                <div class="single-insta"><a href="#"><img src="./images/footer-images/fifth.webp" alt=""></a></div>
+                                <div class="single-insta"><a href="#"><img src="./images/footer-images/sixth.webp" alt=""></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-bottom">
+            <div class="container">
+                <div class="footer-border"></div>
+                <div class="row">
+                    <p>Copyright © 2022 All rights reserved | This template is made with <i class="fa fa-heart-o"></i> <a href="#">Colorib</a></p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
